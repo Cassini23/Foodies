@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="foodiesApp">
+<head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/stylesheets/reset.css' />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/stylesheets/homeStyles_v1.css"/>
+    <link rel="stylesheet" href="/app/authorize/authorize_v1.css"/>
+</head>
+<body data-ng-controller="mainController" data-sn-demo data-ng-class="{'nav-static': app.state['nav-static'], 'login-page': loginPage, 'error-page': errorPage}">
+<!-- ui view-->
+
+
+
+<footer class="navbar navbar-fixed-bottom"><span>&copy Foodies, 2015</span></footer>
+
+<script src="/angular/angular.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="/app.js"></script>
+<script src="/app/home/homeController.js"></script>
+</body>
+</html>

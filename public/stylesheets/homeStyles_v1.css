@@ -1,0 +1,30 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+#search-link{
+    text-decoration: none;
+    color: #777;
+}
+
+#auth-container{
+    margin:auto;
+}
+
+/*#content{
+    padding-top: 80px;
+}*/
+
+#content:after{
+    content:'';
+    clear:both;
+    display: block;
+}
+.center{
+    text-align: center;
+}
+
+.error-code {
+    font-size: 180px;
+    color: #343434;
+}

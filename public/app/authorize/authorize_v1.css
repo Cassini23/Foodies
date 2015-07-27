@@ -1,0 +1,53 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+
+.row{
+    content:'';
+    clear:both;
+    display: block;
+}
+
+section{
+    border: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: none;
+    margin:auto;
+}
+
+#slideImageContent{
+
+}
+
+.menu {
+    width: 100%;
+    display: table;
+    margin: 0 0 16px;
+}
+.menu ul {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.menu li {
+    display: table-cell;
+}
+.menu a {
+    color: #fff;
+    padding: 8px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    background: steelblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    background: blue;
+}

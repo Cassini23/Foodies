@@ -1,0 +1,22 @@
+{
+  "name": "Foodies",
+  "version": "1.0",
+  "authors": [
+    "Nina Balachandran Mary",
+    "Jui Awate"
+  ],
+  "description": "Foodies Inc",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-bootstrap": "~0.13.0",
+    "angular-ui-router": "~0.2.15"
+  }
+}

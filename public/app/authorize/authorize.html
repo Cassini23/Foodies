@@ -1,0 +1,30 @@
+
+
+<div ng-controller="authCarousalController">
+    <div>
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active" style="width:100%">
+                <img id='slideImageContent' ng-src="{{slide.image}}" style="width:100%;height:50%; opacity:0.9">
+                <div class="carousel-caption">
+                    <h4>{{slide.text}}</h4>
+                    <!--todo: the login and signup-->
+                    <div class="row">
+
+                            <nav class="menu">
+                                <ul>
+                                    <li><a ui-sref>LOGIN</a></li>
+                                    <li><a ui-sref>SIGNUP</a></li>
+                                </ul>
+                            </nav>
+
+
+                        <div data-ui-view>
+
+                        </div>
+                    </div>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+
+</div>
